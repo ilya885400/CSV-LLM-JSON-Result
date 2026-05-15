@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "model": "baidu/cobuddy:free",
+    "total": 5,
+    "success": 5
+  },
+  "results": [
+    {
+      "id": "1",
+      "product": "Смартфон Galaxy S24",
+      "review_text": "Отличный телефон",
+      "analysis": {
+        "sentiment": "positive",
+        "sentiment_score": 0.9,
+        "topic": "телефон",
+        "aspects": {
+          "quality": "not_mentioned",
+          "price": "not_mentioned",
+          "service": "not_mentioned",
+          "delivery": "not_mentioned"
+        },
+        "summary": "Пользователь положительно оценивает телефон.",
+        "recommend": true
+      }
+    },
+    {
+      "id": "2",
+      "product": "Футболка Adidas",
+      "review_text": "Качество ткани среднее",
+      "analysis": {
+        "sentiment": "neutral",
+        "sentiment_score": 0.0,
+        "topic": "качество ткани",
+        "aspects": {
+          "quality": "neutral",
+          "price": "not_mentioned",
+          "service": "not_mentioned",
+          "delivery": "not_mentioned"
+        },
+        "summary": "Качество ткани оценивается как среднее.",
+        "recommend": null
+      }
+    },
+    {
+      "id": "3",
+      "product": "Доставка курьером",
+      "review_text": "Доставка заняла 3 дня",
+      "analysis": {
+        "sentiment": "neutral",
+        "sentiment_score": 0.0,
+        "topic": "доставка",
+        "aspects": {
+          "quality": "not_mentioned",
+          "price": "not_mentioned",
+          "service": "not_mentioned",
+          "delivery": "neutral"
+        },
+        "summary": "Доставка заняла 3 дня.",
+        "recommend": null
+      }
+    },
+    {
+      "id": "4",
+      "product": "Ноутбук Lenovo",
+      "review_text": "Ноутбук работает медленно",
+      "analysis": {
+        "sentiment": "negative",
+        "sentiment_score": -0.6,
+        "topic": "производительность",
+        "aspects": {
+          "quality": "negative",
+          "price": "not_mentioned",
+          "service": "not_mentioned",
+          "delivery": "not_mentioned"
+        },
+        "summary": "Пользователь жалуется на медленную работу ноутбука",
+        "recommend": false
+      }
+    },
+    {
+      "id": "5",
+      "product": "Зимняя куртка Columbia",
+      "review_text": "Тёплая и стильная куртка",
+      "analysis": {
+        "sentiment": "positive",
+        "sentiment_score": 0.9,
+        "topic": "куртка",
+        "aspects": {
+          "quality": "positive",
+          "price": "not_mentioned",
+          "service": "not_mentioned",
+          "delivery": "not_mentioned"
+        },
+        "summary": "Пользователь отмечает, что куртка тёплая и стильная.",
+        "recommend": true
+      }
+    }
+  ],
+  "errors": []
+}
